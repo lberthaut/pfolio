@@ -7,7 +7,7 @@ export default class App extends React.Component {
     return (
       <BrowserRouter>
         <Routes>
-          <Route exact path="/main" element={<Main />} />
+          <Route exact path="/" element={<Main />} />
         </Routes>
 
       </BrowserRouter>
