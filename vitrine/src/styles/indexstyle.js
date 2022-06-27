@@ -12,7 +12,7 @@ body {
 
 .background{
   background-color: white;
-  position: absolute;
+  position: fixed;
   z-index: -10;
   height: 100vh;
   width: 50vw;

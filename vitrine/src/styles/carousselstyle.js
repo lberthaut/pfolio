@@ -1,9 +1,15 @@
 import { createGlobalStyle } from "styled-components";
 
 const Carousselstyle = createGlobalStyle`
+
+.caroussel_title{
+text-align: center;
+margin: 4% 0% 1% 0%;
+font-size: 2.3vw;
+}
+
 .caroussel_container{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 2% 10% 2% 10%;
 }
 
 .site_card {

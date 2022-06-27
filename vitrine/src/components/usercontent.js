@@ -17,7 +17,7 @@ export default function Usercontent() {
                 <img className="profilepic" src="assets/profilepic.jpg" alt="représentation visuelle personnelle" title="me" />
             </div>
             <div className="informations_container">
-                <h1 className="names">{firstname} {lastname}</h1>
+                <p className="names">{firstname} {lastname}</p>
                 <p className="age">{age}</p>
                 <p className="city">{city}</p>
                 <p className="job">{job}</p>

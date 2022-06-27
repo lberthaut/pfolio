@@ -96,7 +96,7 @@ const sites = [
         image: "./assets/vitrine.png",
         title: "Infinite Loop",
         technos: "HTML, CSS, JS, React, responsive",
-        description: "Site Vitrine des projets web de Louis. En construction et modification, petit à petit",
+        description: "Site Vitrine de mes projets web Openclassrooms . En construction et modification, petit à petit",
         link: "https://lberthaut.github.io/pfolio",
         repolink: "https://github.com/lberthaut/pfolio"
     }

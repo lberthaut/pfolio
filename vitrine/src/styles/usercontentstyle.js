@@ -9,7 +9,7 @@ ${'' /* .usercontent_container, .informations_container{
 } */}
 
 .usercontent_container{
-    margin-left: 30%;
+    margin-left: 25vw;
     margin-top: 1%;
   width: 60%;
   display: flex;
@@ -25,6 +25,7 @@ ${'' /* .usercontent_container, .informations_container{
         clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
         animation: 26s linear Infinite rotation;
         border-radius: 5px;
+        margin-left: 2vw;
     }
 
     @keyframes rotation{
@@ -53,28 +54,35 @@ ${'' /* .usercontent_container, .informations_container{
 
     .profilepic{
         width: 110%;
-        transform: translate(-20px, -62Px);
+        transform: translate(-8%, -15%);
     }
 
     .informations_container{
-        margin: 2%;
+        margin-top: 1%;
         display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   height: 20vh;
-  width: 80%;
+  width: 50vw;
     }
 
     .names, .age, .city, .job{
         margin-top: 1%;
         margin-bottom: 1%;
+        text-align: center;
+    }
+
+    .names{
+        font-size: 24px;
+        font-weight: bold;
     }
 
     .cv_link{
         text-align: center;
         padding: 1% 0% 1% 0%;
         width: 20%;
+        margin-left: 30%;
         background: linear-gradient(#691266, #b60932);
     border-radius: 5px;
     text-decoration: none;
