@@ -2,7 +2,8 @@ import { createGlobalStyle } from "styled-components";
 
 const Carousselstyle = createGlobalStyle`
 .caroussel_container{
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .site_card {
@@ -16,6 +17,7 @@ const Carousselstyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: white;
 }
 
 .logo_container{
@@ -42,7 +44,7 @@ display: flex;
 }
 
 .site_description_container{
-    margin: 2%;
+    margin: 2% 2% 1% 2%;
     background-color: #F1F1F1;
     height: 40%;
     text-align: center;
