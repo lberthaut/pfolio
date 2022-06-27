@@ -6,7 +6,7 @@ const sites = [
         image: "./assets/reservia.png",
         title: "The first",
         technos: "HTML, CSS, responsive",
-        description: "Toute première page ever",
+        description: "Toute première page ever. Site statique sous Flexbox, avec ajout d'images, liens, ancres, et input text",
         link: "https://lberthaut.github.io/Reservia/",
         repolink: "https://github.com/lberthaut/Reservia"
     },
@@ -95,7 +95,7 @@ const sites = [
         name: "La vitrine de Louis",
         image: "./assets/vitrine.png",
         title: "Infinite Loop",
-        technos: "HTML, CSS, JS, React",
+        technos: "HTML, CSS, JS, React, responsive",
         description: "Site Vitrine des projets web de Louis",
         link: "https://lberthaut.github.io/pfolio",
         repolink: "https://github.com/lberthaut/pfolio"

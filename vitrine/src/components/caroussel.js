@@ -54,7 +54,7 @@ export default function Caroussel() {
                 rewindWithAnimation={false}
                 rtl={false}
                 shouldResetAutoplay
-                showDots={true}
+                showDots={false}
                 sliderClass=""
                 slidesToSlide={1}
                 swipeable={true}
@@ -66,11 +66,14 @@ export default function Caroussel() {
                         </div>
                         <h2 className="site_title">{title}</h2>
                         <p className="site_technos">{technos}</p>
-                        <p className="site_description">{description}</p>
+                        <div className="site_description_container">
+                            <p className="site_description">{description}</p>
+                        </div>
                         <div className="links_container">
                             <a className="site_link" href={link} target="_blank" rel="noreferrer">Site</a>
+                            <a className="repo_link" href={repolink} target="_blank" rel="noreferrer">Repository</a>
                         </div>
-                        <a className="repo_link" href={repolink} target="_blank" rel="noreferrer">Repository</a>
+
                     </article>
                 ))}
             </Carousel>
