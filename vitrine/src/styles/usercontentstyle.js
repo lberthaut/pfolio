@@ -1,31 +1,26 @@
 import { createGlobalStyle } from "styled-components";
 
 const Usercontentstyle = createGlobalStyle`
-${'' /* .usercontent_container, .informations_container{
-    display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */}
+
 
 .usercontent_container{
-    margin-left: 25vw;
-    margin-top: 1%;
+    margin-left: 13vw;
+    padding-top: 5vh;
   width: 60%;
+  height: 35vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
  .profilepic_container{
-        width: 13vw;
-        height: 13vw;
+        width: 16vw;
+        height: 16vw;
         border: solid 1px #a2a2a2;
         overflow: hidden;
         clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
         animation: 26s linear Infinite rotation;
-        border-radius: 5px;
-        margin-left: 2vw;
     }
 
     @keyframes rotation{
@@ -57,48 +52,51 @@ ${'' /* .usercontent_container, .informations_container{
         transform: translate(-8%, -15%);
     }
 
-    .informations_container{
-        margin-top: 1%;
-        display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  height: 20vh;
-  width: 50vw;
+    .user_infos{
+        text-align: center;
+        width: 30%;
     }
 
-    .names, .age, .city, .job{
-        margin-top: 1%;
-        margin-bottom: 1%;
-        text-align: center;
+.age, .city, .job{
+        margin: 0 auto;
+        width: 50%;
+        line-height: 35px;
     }
 
     .names{
-        font-size: 24px;
+        font-size: 38px;
         font-weight: bold;
+        margin: 0 auto;
+        width: 80%;
     }
 
     .cv_link{
         text-align: center;
-        padding: 1% 0% 1% 0%;
+        padding: 3% 5% 3% 5%;
         width: 20%;
-        margin-left: 30%;
-        background: linear-gradient(#691266, #b60932);
-    border-radius: 5px;
+        background: linear-gradient(180deg, rgba(177,177,177,1) 3%, rgba(74,74,74,1) 69%);
     text-decoration: none;
     color: #FFFFFF;
     font-weight: bold;
     border: none;
-    box-shadow: 0.5px 0.5px 2px #000;
-    transition: all 200ms;
+    transition: all 400ms;
     outline: none;
     cursor: pointer;
         &:hover{
-            background: linear-gradient(#b60932, #691266);
+            background: linear-gradient((360deg, rgba(74,74,74,1) 3%, rgba(177,177,177,1) 69%));
             opacity: 0.8;
             box-shadow: 9px 9px 33px -16px rgba(0,0,0,0.75);
         }
+    }
 
+    .modal_renovations{
+        margin: 0 auto;
+        background-color: red;
+        border-radius: 5px;
+        box-shadow: 18px 18px 50px 15px rgba(0,0,0,0.75);
+        z-index: 10;
+        width: 40vw;
+        text-align: center;
     }
 `
 

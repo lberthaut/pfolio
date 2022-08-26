@@ -7,7 +7,8 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     opacity: 0.99;
-    background: linear-gradient(90deg, rgba(105,18,102,1) 0%, rgba(182,9,50,1) 100%);
+    background-color: #8f8f8f;
+    position: relative;
 }
 
 .background{
@@ -15,7 +16,7 @@ body {
   position: fixed;
   z-index: -10;
   height: 100vh;
-  width: 50vw;
+  width: 70vw;
   border-left: 1px solid #b0adac;
   border-right: 1px solid #b0adac;
   right: 50%; left: 50%; top: 0%;

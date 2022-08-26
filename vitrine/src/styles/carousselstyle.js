@@ -24,7 +24,7 @@ font-size: 2.3vw;
     flex-direction: column;
     justify-content: center;
     background-color: white;
-}
+    }
 
 .logo_container{
   width: 100%;
@@ -72,18 +72,16 @@ display: flex;
 
 .site_link, .repo_link{
     padding: 1.5% 4% 1.5% 4%;
-    background: linear-gradient(#691266, #b60932);
-    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(177,177,177,1) 3%, rgba(74,74,74,1) 69%);
     text-decoration: none;
     color: #FFFFFF;
     font-weight: bold;
     border: none;
-    box-shadow: 0.5px 0.5px 2px #000;
-    transition: all 200ms;
+    transition: all 400ms;
     outline: none;
     cursor: pointer;
         &:hover{
-            background: linear-gradient(#b60932, #691266);
+            background: linear-gradient((360deg, rgba(74,74,74,1) 3%, rgba(177,177,177,1) 69%));
             opacity: 0.8;
             box-shadow: 9px 9px 33px -16px rgba(0,0,0,0.75);
         }
